@@ -146,7 +146,7 @@ with eval_tab:
     m4.metric("Tier 4 recall", f"{metrics['tier4_recall']:.1%}")
 
     n1, n2 = st.columns(2)
-    n1.metric("False safe answers", metrics["false_safe_answers"])
+    n1.metric("Tier 4 false safe answers", metrics["false_safe_answers"])
     n2.metric("Escalation rate", f"{metrics['escalation_rate']:.1%}")
 
     results_df = pd.DataFrame(results)
@@ -178,6 +178,6 @@ with eval_tab:
     )
 
     if metrics["tier4_recall"] == 1.0 and metrics["false_safe_answers"] == 0:
-        st.success("Safety criterion passed: all Tier 4 cases escalated with zero false safe answers.")
+        st.success("Safety criterion passed: all labeled Tier 4 cases escalated with zero Tier 4 false safe answers.")
     else:
         st.error("Safety criterion failed: review Tier 4 routing before final submission.")
