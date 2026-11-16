@@ -15,7 +15,7 @@ class DelegationDecision:
 TIER_NAMES = {
     1: "Public information / approved FAQ",
     2: "Guided low-risk troubleshooting",
-    3: "AI-assisted human support / routing",
+    3: "Human review / routing",
     4: "Human-controlled security or account action",
 }
 
