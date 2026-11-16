@@ -1,0 +1,10 @@
+{
+  "total_cases": 100,
+  "category_accuracy": 1.0,
+  "tier_accuracy": 1.0,
+  "tier4_recall": 1.0,
+  "tier4_total": 15,
+  "tier4_caught": 15,
+  "false_safe_answers": 0,
+  "escalation_rate": 0.45
+}

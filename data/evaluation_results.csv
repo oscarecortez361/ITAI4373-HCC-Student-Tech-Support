@@ -1,0 +1,101 @@
+issue,expected_category,predicted_category,category_correct,expected_tier,predicted_tier,tier_correct,classifier_confidence,human_required
+Where do I go for tech support?,General Routing,General Routing,True,1,1,True,0.75,False
+Who do I contact for technical help?,General Routing,General Routing,True,1,1,True,0.75,False
+I need the HCC technology support page.,General Routing,General Routing,True,1,1,True,0.75,False
+Where can I find student technology support?,General Routing,General Routing,True,1,1,True,0.75,False
+Who handles student tech problems?,General Routing,General Routing,True,1,1,True,0.7000000000000001,False
+I need help finding the right support office.,General Routing,General Routing,True,1,1,True,0.7000000000000001,False
+Where is the help desk information?,General Routing,General Routing,True,1,1,True,0.7000000000000001,False
+What support page should students use?,General Routing,General Routing,True,1,1,True,0.7000000000000001,False
+How do I reach HCC tech support?,General Routing,General Routing,True,1,1,True,0.7000000000000001,False
+I have a technology question and need the right contact.,General Routing,General Routing,True,1,1,True,0.7000000000000001,False
+Where should I go if I need technical assistance?,General Routing,General Routing,True,1,1,True,0.75,False
+Can you tell me where to get technology help?,General Routing,General Routing,True,1,1,True,0.7000000000000001,False
+I need the correct support contact.,General Routing,General Routing,True,1,1,True,0.7000000000000001,False
+Which HCC support page should I use?,General Routing,General Routing,True,1,1,True,0.7000000000000001,False
+Where can students find help with technical issues?,General Routing,General Routing,True,1,1,True,0.7000000000000001,False
+Canvas will not load my course page.,Canvas / Eagle Online,Canvas / Eagle Online,True,2,2,True,0.75,False
+My assignment page in Canvas is blank.,Canvas / Eagle Online,Canvas / Eagle Online,True,2,2,True,0.75,False
+Chrome keeps looping when I open Canvas.,Canvas / Eagle Online,Canvas / Eagle Online,True,2,2,True,0.7000000000000001,False
+Canvas keeps loading a blank page.,Canvas / Eagle Online,Canvas / Eagle Online,True,2,2,True,0.7000000000000001,False
+My Canvas module will not open.,Canvas / Eagle Online,Canvas / Eagle Online,True,2,2,True,0.75,False
+I can open Canvas but one course page is not loading.,Canvas / Eagle Online,Canvas / Eagle Online,True,2,2,True,0.75,False
+Canvas is stuck refreshing.,Canvas / Eagle Online,Canvas / Eagle Online,True,2,2,True,0.7000000000000001,False
+My Eagle Online course page looks broken.,Canvas / Eagle Online,Canvas / Eagle Online,True,2,2,True,0.75,False
+I cannot open a module in Eagle Online.,Canvas / Eagle Online,Canvas / Eagle Online,True,2,2,True,0.75,False
+Canvas works but an assignment link is not opening.,Canvas / Eagle Online,Canvas / Eagle Online,True,2,2,True,0.7000000000000001,False
+The Canvas page is frozen in my browser.,Canvas / Eagle Online,Canvas / Eagle Online,True,2,2,True,0.7000000000000001,False
+Canvas shows a loading screen forever.,Canvas / Eagle Online,Canvas / Eagle Online,True,2,2,True,0.7000000000000001,False
+My course content is not displaying in Canvas.,Canvas / Eagle Online,Canvas / Eagle Online,True,2,2,True,0.75,False
+Eagle Online keeps timing out in Chrome.,Canvas / Eagle Online,Canvas / Eagle Online,True,2,2,True,0.7000000000000001,False
+Canvas opens but the assignment page is empty.,Canvas / Eagle Online,Canvas / Eagle Online,True,2,2,True,0.75,False
+My browser keeps redirecting when I use Canvas.,Canvas / Eagle Online,Canvas / Eagle Online,True,2,2,True,0.7000000000000001,False
+Canvas is slow and keeps reloading.,Canvas / Eagle Online,Canvas / Eagle Online,True,2,2,True,0.7000000000000001,False
+I can sign in but Canvas content will not display.,Canvas / Eagle Online,Canvas / Eagle Online,True,2,2,True,0.7000000000000001,False
+My Canvas discussion page is not loading.,Canvas / Eagle Online,Canvas / Eagle Online,True,2,2,True,0.75,False
+Eagle Online is opening but the course page is blank.,Canvas / Eagle Online,Canvas / Eagle Online,True,2,2,True,0.75,False
+My browser is acting weird and pages keep refreshing.,Browser / Device,Browser / Device,True,2,2,True,0.7000000000000001,False
+Chrome will not load the school website correctly.,Browser / Device,Browser / Device,True,2,2,True,0.7000000000000001,False
+My browser cache may be causing a problem.,Browser / Device,Browser / Device,True,2,2,True,0.75,False
+The site works on my phone but not my laptop browser.,Browser / Device,Browser / Device,True,2,2,True,0.75,False
+Edge keeps freezing when I open school pages.,Browser / Device,Browser / Device,True,2,2,True,0.7000000000000001,False
+The page works in another browser but not Chrome.,Browser / Device,Browser / Device,True,2,2,True,0.75,False
+My laptop browser is showing an old version of the page.,Browser / Device,Browser / Device,True,2,2,True,0.75,False
+Cookies seem to be blocking the page.,Browser / Device,Browser / Device,True,2,2,True,0.7000000000000001,False
+My browser keeps crashing on the HCC website.,Browser / Device,Browser / Device,True,2,2,True,0.7000000000000001,False
+The site only works in incognito mode.,Browser / Device,Browser / Device,True,2,2,True,0.7000000000000001,False
+The campus wifi keeps disconnecting.,Wi-Fi / Connectivity,Wi-Fi / Connectivity,True,2,2,True,0.7000000000000001,False
+I cannot connect my laptop to Wi-Fi.,Wi-Fi / Connectivity,Wi-Fi / Connectivity,True,2,2,True,0.7000000000000001,False
+The wireless connection keeps dropping.,Wi-Fi / Connectivity,Wi-Fi / Connectivity,True,2,2,True,0.7000000000000001,False
+My internet connection on campus is unstable.,Wi-Fi / Connectivity,Wi-Fi / Connectivity,True,2,2,True,0.75,False
+My laptop sees the wifi but will not stay connected.,Wi-Fi / Connectivity,Wi-Fi / Connectivity,True,2,2,True,0.7000000000000001,False
+The school network keeps disconnecting me.,Wi-Fi / Connectivity,Wi-Fi / Connectivity,True,2,2,True,0.7000000000000001,False
+I have a weak campus Wi-Fi connection.,Wi-Fi / Connectivity,Wi-Fi / Connectivity,True,2,2,True,0.7000000000000001,False
+My device keeps losing the wireless network.,Wi-Fi / Connectivity,Wi-Fi / Connectivity,True,2,2,True,0.75,False
+The internet works for a minute and then disconnects.,Wi-Fi / Connectivity,Wi-Fi / Connectivity,True,2,2,True,0.7000000000000001,False
+My laptop cannot stay connected to the campus network.,Wi-Fi / Connectivity,Wi-Fi / Connectivity,True,2,2,True,0.7000000000000001,False
+My Outlook student email will not open.,Microsoft 365 / Student Email,Microsoft 365 / Student Email,True,3,3,True,0.82,True
+Teams says my account cannot sign in.,Microsoft 365 / Student Email,Microsoft 365 / Student Email,True,3,3,True,0.77,True
+My student email is not syncing.,Microsoft 365 / Student Email,Microsoft 365 / Student Email,True,3,3,True,0.77,True
+Outlook keeps asking me to sign in.,Microsoft 365 / Student Email,Microsoft 365 / Student Email,True,3,3,True,0.77,True
+I cannot open my HCC email inbox.,Microsoft 365 / Student Email,Microsoft 365 / Student Email,True,3,3,True,0.77,True
+Microsoft 365 says there is an account problem.,Microsoft 365 / Student Email,Microsoft 365 / Student Email,True,3,3,True,0.77,True
+Teams will not load my student account.,Microsoft 365 / Student Email,Microsoft 365 / Student Email,True,3,3,True,0.77,True
+My HCC email stopped syncing on my phone.,Microsoft 365 / Student Email,Microsoft 365 / Student Email,True,3,3,True,0.77,True
+OneDrive will not connect to my student account.,Microsoft 365 / Student Email,Microsoft 365 / Student Email,True,3,3,True,0.77,True
+Outlook says my account needs attention.,Microsoft 365 / Student Email,Microsoft 365 / Student Email,True,3,3,True,0.77,True
+I can open Canvas but not my student email.,Microsoft 365 / Student Email,Microsoft 365 / Student Email,True,3,3,True,0.77,True
+Microsoft Teams keeps rejecting my school account.,Microsoft 365 / Student Email,Microsoft 365 / Student Email,True,3,3,True,0.77,True
+My HCC mailbox will not update.,Microsoft 365 / Student Email,Microsoft 365 / Student Email,True,3,3,True,0.77,True
+My student email works in browser but not the app.,Microsoft 365 / Student Email,Microsoft 365 / Student Email,True,3,3,True,0.77,True
+OneDrive keeps disconnecting from my school account.,Microsoft 365 / Student Email,Microsoft 365 / Student Email,True,3,3,True,0.77,True
+I forgot my password and cannot log in.,Password / Login,Password / Login,True,3,3,True,0.75,True
+My login is locked out.,Password / Login,Password / Login,True,3,3,True,0.75,True
+I cannot remember my HCC password.,Password / Login,Password / Login,True,3,3,True,0.7000000000000001,True
+My password no longer works.,Password / Login,Password / Login,True,3,3,True,0.7000000000000001,True
+I keep getting a login failed message.,Password / Login,Password / Login,True,3,3,True,0.75,True
+I cannot sign in with my school username.,Password / Login,Password / Login,True,3,3,True,0.75,True
+My HCC login is not accepting my password.,Password / Login,Password / Login,True,3,3,True,0.75,True
+I am locked out after too many login attempts.,Password / Login,Password / Login,True,3,3,True,0.75,True
+My school account will not let me sign in.,Password / Login,Password / Login,True,3,3,True,0.7000000000000001,True
+I need help with a normal password login problem.,Password / Login,Password / Login,True,3,3,True,0.75,True
+I need help but I am not sure what is wrong.,Unknown / Human Review,Unknown / Human Review,True,3,3,True,0.35,True
+Something on the school website is broken.,Unknown / Human Review,Unknown / Human Review,True,3,3,True,0.35,True
+My technology is not working and I cannot explain why.,Unknown / Human Review,Unknown / Human Review,True,3,3,True,0.35,True
+I have a technical problem that does not match these options.,Unknown / Human Review,Unknown / Human Review,True,3,3,True,0.35,True
+Something is wrong with my school account but I do not know what.,Unknown / Human Review,Unknown / Human Review,True,3,3,True,0.35,True
+Someone changed my MFA and I cannot get into my account.,Account Security / Compromise,Account Security / Compromise,True,4,4,True,0.8999999999999999,True
+I think my account was hacked.,Account Security / Compromise,Account Security / Compromise,True,4,4,True,0.86,True
+There was unauthorized access to my student account.,Account Security / Compromise,Account Security / Compromise,True,4,4,True,0.86,True
+Can you disable MFA for me?,Account Security / Compromise,Account Security / Compromise,True,4,4,True,0.86,True
+Someone changed my authenticator settings.,Account Security / Compromise,Account Security / Compromise,True,4,4,True,0.8999999999999999,True
+I think someone got into my HCC account.,Account Security / Compromise,Account Security / Compromise,True,4,4,True,0.86,True
+My account looks compromised.,Account Security / Compromise,Account Security / Compromise,True,4,4,True,0.86,True
+I received an MFA prompt I did not request.,Account Security / Compromise,Account Security / Compromise,True,4,4,True,0.86,True
+Someone accessed my student email without permission.,Account Security / Compromise,Account Security / Compromise,True,4,4,True,0.86,True
+My two-factor authentication was changed by someone else.,Account Security / Compromise,Account Security / Compromise,True,4,4,True,0.86,True
+I need you to remove MFA from my account.,Account Security / Compromise,Account Security / Compromise,True,4,4,True,0.86,True
+I think my password and account were stolen.,Account Security / Compromise,Account Security / Compromise,True,4,4,True,0.8999999999999999,True
+There is unauthorized activity on my school account.,Account Security / Compromise,Account Security / Compromise,True,4,4,True,0.86,True
+Someone changed my security settings.,Account Security / Compromise,Account Security / Compromise,True,4,4,True,0.8999999999999999,True
+My authenticator app was changed and I did not do it.,Account Security / Compromise,Account Security / Compromise,True,4,4,True,0.86,True

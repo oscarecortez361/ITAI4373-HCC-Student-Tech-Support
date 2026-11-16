@@ -1,0 +1,88 @@
+[
+  {
+    "category": "Account Security / Compromise",
+    "title": "Account Security / Human Escalation",
+    "guidance": [
+      "Suspected account compromise, MFA takeover, and identity-verification issues require human handling.",
+      "The POC must not request passwords, MFA codes, security answers, or sensitive personal information.",
+      "Use authorized HCC support channels for account-security actions."
+    ],
+    "source_name": "Houston City College \u2014 Student Email/Eagle ID",
+    "source_url": "https://www.hccs.edu/current-students/technology-support/student-emaileagle-id/",
+    "verified_public_source": true
+  },
+  {
+    "category": "Canvas / Eagle Online",
+    "title": "Eagle Online (Canvas) Support",
+    "guidance": [
+      "HCC identifies Eagle Online as its Canvas learning management system.",
+      "The Canvas username is the student's HCC email, and the Canvas password is the same as the HCC email password.",
+      "For Canvas browser problems, HCC recommends a current browser with pop-ups, JavaScript, and cookies enabled.",
+      "For Eagle Online technical support, HCC lists 713-718-5275, option 3.",
+      "For password reset assistance, HCC lists 713-718-8800.",
+      "HCC states that a submitted Canvas support ticket should receive contact within 24 hours."
+    ],
+    "source_name": "Houston City College \u2014 Eagle Online (Canvas) Support",
+    "source_url": "https://www.hccs.edu/current-students/technology-support/eagle-online-canvas-support/",
+    "verified_public_source": true
+  },
+  {
+    "category": "Password / Login",
+    "title": "Password Reset Information",
+    "guidance": [
+      "HCC provides a self-service password management page for password resets.",
+      "If an account is disabled after repeated unsuccessful login attempts, HCC says the user may wait for the temporary lockout period or contact the IT Help Desk.",
+      "The POC must not reset passwords, unlock accounts, perform identity verification, or request passwords."
+    ],
+    "source_name": "Houston City College \u2014 Password Reset Information",
+    "source_url": "https://www.hccs.edu/current-students/technology-support/password-reset-information/",
+    "verified_public_source": true
+  },
+  {
+    "category": "Microsoft 365 / Student Email",
+    "title": "Student Email / Eagle ID",
+    "guidance": [
+      "HCC provides official Student Email and Eagle ID support information.",
+      "HCC states that assisted password resets require identity verification by an HCC representative.",
+      "HCC lists the IT Service Desk at 713-718-8800.",
+      "The POC must route identity-verification and assisted-reset actions to authorized HCC staff."
+    ],
+    "source_name": "Houston City College \u2014 Student Email/Eagle ID",
+    "source_url": "https://www.hccs.edu/current-students/technology-support/student-emaileagle-id/",
+    "verified_public_source": true
+  },
+  {
+    "category": "General Routing",
+    "title": "Technology Support",
+    "guidance": [
+      "HCC's Technology Support page routes students to Student Email/Eagle ID, Password Reset, Student System, Eagle Online (Canvas), and other support resources.",
+      "The POC should use these official routes rather than inventing internal support procedures."
+    ],
+    "source_name": "Houston City College \u2014 Technology Support",
+    "source_url": "https://www.hccs.edu/current-students/technology-support/",
+    "verified_public_source": true
+  },
+  {
+    "category": "Browser / Device",
+    "title": "Canvas Browser Requirements",
+    "guidance": [
+      "For Canvas issues, HCC recommends a current browser.",
+      "HCC states that pop-ups, JavaScript, and cookies must be enabled for Canvas.",
+      "If the problem persists or appears account-specific, route the student to HCC technical support."
+    ],
+    "source_name": "Houston City College \u2014 Eagle Online (Canvas) Support",
+    "source_url": "https://www.hccs.edu/current-students/technology-support/eagle-online-canvas-support/",
+    "verified_public_source": true
+  },
+  {
+    "category": "Wi-Fi / Connectivity",
+    "title": "Technology Support",
+    "guidance": [
+      "The public HCC Technology Support page includes technology support resources and information about Wi-Fi access.",
+      "The POC should avoid inventing internal network settings or credentials and should escalate unresolved connectivity problems."
+    ],
+    "source_name": "Houston City College \u2014 Technology Support",
+    "source_url": "https://www.hccs.edu/current-students/technology-support/",
+    "verified_public_source": true
+  }
+]

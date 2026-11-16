@@ -1,0 +1,101 @@
+issue,expected_category,expected_tier
+Where do I go for tech support?,General Routing,1
+Who do I contact for technical help?,General Routing,1
+I need the HCC technology support page.,General Routing,1
+Where can I find student technology support?,General Routing,1
+Who handles student tech problems?,General Routing,1
+I need help finding the right support office.,General Routing,1
+Where is the help desk information?,General Routing,1
+What support page should students use?,General Routing,1
+How do I reach HCC tech support?,General Routing,1
+I have a technology question and need the right contact.,General Routing,1
+Where should I go if I need technical assistance?,General Routing,1
+Can you tell me where to get technology help?,General Routing,1
+I need the correct support contact.,General Routing,1
+Which HCC support page should I use?,General Routing,1
+Where can students find help with technical issues?,General Routing,1
+Canvas will not load my course page.,Canvas / Eagle Online,2
+My assignment page in Canvas is blank.,Canvas / Eagle Online,2
+Chrome keeps looping when I open Canvas.,Canvas / Eagle Online,2
+Canvas keeps loading a blank page.,Canvas / Eagle Online,2
+My Canvas module will not open.,Canvas / Eagle Online,2
+I can open Canvas but one course page is not loading.,Canvas / Eagle Online,2
+Canvas is stuck refreshing.,Canvas / Eagle Online,2
+My Eagle Online course page looks broken.,Canvas / Eagle Online,2
+I cannot open a module in Eagle Online.,Canvas / Eagle Online,2
+Canvas works but an assignment link is not opening.,Canvas / Eagle Online,2
+The Canvas page is frozen in my browser.,Canvas / Eagle Online,2
+Canvas shows a loading screen forever.,Canvas / Eagle Online,2
+My course content is not displaying in Canvas.,Canvas / Eagle Online,2
+Eagle Online keeps timing out in Chrome.,Canvas / Eagle Online,2
+Canvas opens but the assignment page is empty.,Canvas / Eagle Online,2
+My browser keeps redirecting when I use Canvas.,Canvas / Eagle Online,2
+Canvas is slow and keeps reloading.,Canvas / Eagle Online,2
+I can sign in but Canvas content will not display.,Canvas / Eagle Online,2
+My Canvas discussion page is not loading.,Canvas / Eagle Online,2
+Eagle Online is opening but the course page is blank.,Canvas / Eagle Online,2
+My browser is acting weird and pages keep refreshing.,Browser / Device,2
+Chrome will not load the school website correctly.,Browser / Device,2
+My browser cache may be causing a problem.,Browser / Device,2
+The site works on my phone but not my laptop browser.,Browser / Device,2
+Edge keeps freezing when I open school pages.,Browser / Device,2
+The page works in another browser but not Chrome.,Browser / Device,2
+My laptop browser is showing an old version of the page.,Browser / Device,2
+Cookies seem to be blocking the page.,Browser / Device,2
+My browser keeps crashing on the HCC website.,Browser / Device,2
+The site only works in incognito mode.,Browser / Device,2
+The campus wifi keeps disconnecting.,Wi-Fi / Connectivity,2
+I cannot connect my laptop to Wi-Fi.,Wi-Fi / Connectivity,2
+The wireless connection keeps dropping.,Wi-Fi / Connectivity,2
+My internet connection on campus is unstable.,Wi-Fi / Connectivity,2
+My laptop sees the wifi but will not stay connected.,Wi-Fi / Connectivity,2
+The school network keeps disconnecting me.,Wi-Fi / Connectivity,2
+I have a weak campus Wi-Fi connection.,Wi-Fi / Connectivity,2
+My device keeps losing the wireless network.,Wi-Fi / Connectivity,2
+The internet works for a minute and then disconnects.,Wi-Fi / Connectivity,2
+My laptop cannot stay connected to the campus network.,Wi-Fi / Connectivity,2
+My Outlook student email will not open.,Microsoft 365 / Student Email,3
+Teams says my account cannot sign in.,Microsoft 365 / Student Email,3
+My student email is not syncing.,Microsoft 365 / Student Email,3
+Outlook keeps asking me to sign in.,Microsoft 365 / Student Email,3
+I cannot open my HCC email inbox.,Microsoft 365 / Student Email,3
+Microsoft 365 says there is an account problem.,Microsoft 365 / Student Email,3
+Teams will not load my student account.,Microsoft 365 / Student Email,3
+My HCC email stopped syncing on my phone.,Microsoft 365 / Student Email,3
+OneDrive will not connect to my student account.,Microsoft 365 / Student Email,3
+Outlook says my account needs attention.,Microsoft 365 / Student Email,3
+I can open Canvas but not my student email.,Microsoft 365 / Student Email,3
+Microsoft Teams keeps rejecting my school account.,Microsoft 365 / Student Email,3
+My HCC mailbox will not update.,Microsoft 365 / Student Email,3
+My student email works in browser but not the app.,Microsoft 365 / Student Email,3
+OneDrive keeps disconnecting from my school account.,Microsoft 365 / Student Email,3
+I forgot my password and cannot log in.,Password / Login,3
+My login is locked out.,Password / Login,3
+I cannot remember my HCC password.,Password / Login,3
+My password no longer works.,Password / Login,3
+I keep getting a login failed message.,Password / Login,3
+I cannot sign in with my school username.,Password / Login,3
+My HCC login is not accepting my password.,Password / Login,3
+I am locked out after too many login attempts.,Password / Login,3
+My school account will not let me sign in.,Password / Login,3
+I need help with a normal password login problem.,Password / Login,3
+I need help but I am not sure what is wrong.,Unknown / Human Review,3
+Something on the school website is broken.,Unknown / Human Review,3
+My technology is not working and I cannot explain why.,Unknown / Human Review,3
+I have a technical problem that does not match these options.,Unknown / Human Review,3
+Something is wrong with my school account but I do not know what.,Unknown / Human Review,3
+Someone changed my MFA and I cannot get into my account.,Account Security / Compromise,4
+I think my account was hacked.,Account Security / Compromise,4
+There was unauthorized access to my student account.,Account Security / Compromise,4
+Can you disable MFA for me?,Account Security / Compromise,4
+Someone changed my authenticator settings.,Account Security / Compromise,4
+I think someone got into my HCC account.,Account Security / Compromise,4
+My account looks compromised.,Account Security / Compromise,4
+I received an MFA prompt I did not request.,Account Security / Compromise,4
+Someone accessed my student email without permission.,Account Security / Compromise,4
+My two-factor authentication was changed by someone else.,Account Security / Compromise,4
+I need you to remove MFA from my account.,Account Security / Compromise,4
+I think my password and account were stolen.,Account Security / Compromise,4
+There is unauthorized activity on my school account.,Account Security / Compromise,4
+Someone changed my security settings.,Account Security / Compromise,4
+My authenticator app was changed and I did not do it.,Account Security / Compromise,4
