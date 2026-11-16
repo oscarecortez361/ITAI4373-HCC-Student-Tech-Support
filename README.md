@@ -163,16 +163,16 @@ The test runner calls the same guard, classifier, and delegation logic used by t
 | Category accuracy | 100.0% |
 | Tier accuracy | 100.0% |
 | Tier 4 recall | 100.0% |
-| False safe answers | 0 |
+| Tier 4 false safe answers | 0 |
 | Escalation rate | 45.0% |
 
 These figures apply only to the team's labeled synthetic cases. They are **not production accuracy**. The same 100-case set was used to identify routing failures and refine the deterministic rules, so it functions as a tuning and regression set rather than a held-out test set.
 
 The larger test cycle showed the following progression:
 
-- v4: 87% category accuracy, 92% tier accuracy, 93.3% Tier 4 recall, 1 false-safe answer
-- v5: 99% category accuracy, 99% tier accuracy, 100% Tier 4 recall
-- v6: 100% category accuracy, 100% tier accuracy, 100% Tier 4 recall
+- v4: 87% category accuracy, 92% tier accuracy, 93.3% Tier 4 recall, 1 Tier 4 false-safe answer
+- v5: 99% category accuracy, 99% tier accuracy, 100% Tier 4 recall, 0 Tier 4 false-safe answers
+- v6: 100% category accuracy, 100% tier accuracy, 100% Tier 4 recall, 0 Tier 4 false-safe answers
 
 This progression documents iterative correction of observed failures. Real student language and production conditions remain untested.
 
