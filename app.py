@@ -1,3 +1,16 @@
+"""Streamlit app for the HCC Student Technical Support and Routing POC.
+
+Two tabs. The Live Routing Demo takes a student message and runs it through
+the input guard, the classifier and the delegation engine, then shows the
+tier, the next steps, the verified HCC source and a handoff summary for Tier 3
+and Tier 4. The Evaluation Dashboard runs the 100 labeled synthetic cases
+through the same functions.
+
+Run with:  python -m streamlit run app.py
+
+This is a proof of concept. It does not log in users, reset passwords or touch
+any HCC system, and it keeps no raw message text.
+"""
 import streamlit as st
 import pandas as pd
 
@@ -11,6 +24,7 @@ from src.knowledge_base import get_knowledge_entry
 from src.evaluation_engine import evaluate_cases
 
 
+# --- Page setup ---
 st.set_page_config(
     page_title="HCC Student Tech Support POC",
     page_icon="🛠️",
@@ -25,9 +39,14 @@ st.info(
     "student ID numbers, payment information, or other sensitive personal data."
 )
 
+# --- Session state ---
+# Streamlit reruns this whole script on every click, so the list of routed
+# cases lives in session_state. Each Event holds only category, tier and
+# escalated. The message text itself is never stored.
 if "events" not in st.session_state:
     st.session_state.events = []
 
+# --- Sidebar ---
 with st.sidebar:
     st.header("POC Controls")
     st.write(
@@ -40,6 +59,7 @@ with st.sidebar:
 
 live_tab, eval_tab = st.tabs(["Live Routing Demo", "Evaluation Dashboard"])
 
+# --- Live routing tab ---
 with live_tab:
     issue = st.text_area(
         "Describe the technical problem",
@@ -48,6 +68,11 @@ with live_tab:
     )
 
     if st.button("Analyze and route issue", type="primary") and issue.strip():
+        # Routing steps, in order:
+        # 1. The guard looks for security and sensitive data triggers.
+        # 2. The classifier picks a category.
+        # 3. The delegation engine picks the tier. A guard trigger forces Tier 4.
+        # 4. The troubleshooting module returns the approved steps for that tier.
         guard = inspect_input(issue)
         classification = classify_issue(issue)
         decision = assign_tier(
@@ -57,6 +82,8 @@ with live_tab:
         )
         guidance = get_guidance(classification.category, decision.tier)
 
+        # Record only category, tier and escalation status for the session
+        # analytics below.
         st.session_state.events.append(
             Event(
                 category=classification.category,
@@ -73,9 +100,16 @@ with live_tab:
         c3.metric("Human required", "Yes" if decision.human_required else "No")
 
         st.write(f"**Tier function:** {decision.tier_name}")
+        # Confidence is a display value from the keyword count, not a
+        # calibrated probability.
         st.write(f"**Classifier confidence:** {classification.confidence:.0%}")
+        # Five risk dimensions scored 1 to 5, so the maximum is 25. The score
+        # only explains the risk to the viewer. The tier is set by category
+        # and by the guard, not by this number.
         st.write(f"**Decision score:** {decision.total_score}/25")
 
+        # Banner by tier: Tier 4 stops, Tier 3 needs a person, Tier 1 and 2 may
+        # show the approved low-risk guidance.
         if decision.tier == 4:
             st.error("Tier 4 hard stop: this issue requires human support.")
             if guard.reasons:
@@ -89,6 +123,8 @@ with live_tab:
         for step in guidance:
             st.write(f"• {step}")
 
+        # Guidance and source link from the small local knowledge base of
+        # public HCC pages. Not every category has an entry.
         kb_entry = get_knowledge_entry(classification.category)
         if kb_entry:
             st.subheader("Verified HCC information")
@@ -97,6 +133,8 @@ with live_tab:
             st.caption("Public source used for this POC:")
             st.markdown(f"[{kb_entry['source_name']}]({kb_entry['source_url']})")
 
+        # Tier 3 and Tier 4 get a handoff summary. Common sensitive values are
+        # redacted inside build_case_summary before the text is shown.
         if decision.tier >= 3:
             st.subheader("Human handoff summary")
             summary = build_case_summary(
@@ -107,6 +145,9 @@ with live_tab:
             )
             st.code(summary, language=None)
 
+    # --- Session analytics ---
+    # Counts for this browser session only. They reset when the session ends
+    # or when the sidebar button is pressed.
     st.divider()
     st.subheader("Session analytics")
 
@@ -130,6 +171,10 @@ with live_tab:
         st.bar_chart(df["Tier"].value_counts().sort_index())
         st.dataframe(df, width="stretch")
 
+# --- Evaluation dashboard tab ---
+# Reruns the labeled synthetic cases each time the page loads. These 100 cases
+# were also used to tune the rules, so this is a regression check and not
+# proof of accuracy on real student messages.
 with eval_tab:
     st.header("100-Case Synthetic Evaluation")
     st.write(
@@ -177,6 +222,8 @@ with eval_tab:
         mime="text/csv",
     )
 
+    # Safety criterion: every case labeled Tier 4 must come back as Tier 4.
+    # If this banner turns red, fix the Tier 4 routing before anything else.
     if metrics["tier4_recall"] == 1.0 and metrics["false_safe_answers"] == 0:
         st.success("Safety criterion passed: all labeled Tier 4 cases escalated with zero Tier 4 false safe answers.")
     else:
