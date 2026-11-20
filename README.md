@@ -2,7 +2,7 @@
 
 ## ITAI 4373 Capstone Project
 
-This private repository contains the proof-of-concept implementation for Group 1's capstone continuation of the midterm project:
+This public repository contains the proof-of-concept implementation for Group 1's capstone continuation of the midterm project:
 
 **AI Delegation Pilot for HCC Student Technical Support and Routing**
 
